@@ -3,16 +3,16 @@
 //website : smartelc.ir
 #include "main.h"
 #include "stm32f1xx.h"
-#include "library/123.h"
-#include "library/tft2.h"
-#include "library/Graphic.h"
-#include "library/AF12x16.h"
-#include "library/AF9x10.h"
-#include "library/AF9x11.h"
-#include "library/f10x20.h"
-#include "library/f9x14.h"
-#include "library/f5x7.h"
-#include "library/Font.h"
+#include "123.h"
+#include "tft2.h"
+#include "Graphic.h"
+#include "AF12x16.h"
+#include "AF9x10.h"
+#include "AF9x11.h"
+#include "f10x20.h"
+#include "f9x14.h"
+#include "f5x7.h"
+#include "Font.h"
 /* USER CODE BEGIN Includes */
 
 /* USER CODE END Includes */
@@ -85,11 +85,11 @@ lcd_background_color(BLACK);
   FontYScale=2;
   rot=0;
   Reverse=0;
-  TextBox(40,2,200,40,"»Â ‰«„ Œœ«",ALINE_CENTER | BORDER_RECT | BORDER_FILL |bvl(10) ); 
+  TextBox(40,2,200,40,"√à√• √§√á√£ √é√è√á",ALINE_CENTER | BORDER_RECT | BORDER_FILL |bvl(10) ); 
   FgColor=WHITE;
   rot=1;
   Reverse=1;
-  TextBox(0,0,40,150,"çÌÅﬂœÂ",ALINE_CENTER); 
+  TextBox(0,0,40,150,"¬ç√≠¬Å√ü√è√•",ALINE_CENTER); 
   LcdFont(f10x20);
   SetLetter(E_LETTER);
   FontXScale=2;
